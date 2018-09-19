@@ -69,16 +69,17 @@ header a:hover {
     font-weight: bold;
 }
 
-main {
-    background-color: lightgray;
+main { 
     padding: 40px;
     height: 350px;
-    background-image: url('images/showcase.jpg');
     font-family: Helvetica, sans-serif;
-    font-size: 40px;
-    width: 100%;
+    font-size: 40px;    
     color: #ffffff;
     text-align: center;
+}
+/* Background image only for index.html*/
+#showcase{
+    background-image: url('images/showcase.jpg');
 }
 
 /* Fixed footer */
