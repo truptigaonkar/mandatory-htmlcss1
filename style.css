@@ -69,7 +69,7 @@ header a:hover {
     font-weight: bold;
 }
 
-main { 
+article{ 
     padding: 40px;
     height: 350px;
     font-family: Helvetica, sans-serif;
@@ -80,6 +80,30 @@ main {
 /* Background image only for index.html*/
 #showcase{
     background-image: url('images/showcase.jpg');
+}
+
+/* Table properties*/
+table{  
+    margin-top: 3%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 8px;
+    border-spacing: 100px 120px;
+}
+th, td{
+   padding: 8px;
+   border: 10px solid #ddd;
+   text-align: center;
+}
+table th{
+    background-color: lightblue;
+}
+tbody tr:nth-child(odd) {
+    background-color: lightyellow ;
+}
+table tbody tr:hover{
+    background-color:  lightskyblue;
 }
 
 /* Fixed footer */
@@ -93,3 +117,4 @@ footer {
     position: fixed;
     width: 100%
 }
+
