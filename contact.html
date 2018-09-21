@@ -27,9 +27,33 @@
     </header>
     <main>
         <div class="container">
-            <article>
-                
-            </article>
+            <form action="">
+                <div class="row">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Enter the name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Enter the email address" required>
+                    </div>
+                    <div>
+                        <label for="subjects">Subjects</label>
+                        <select name="subjects" required>
+                            <option value="">Select option</option>
+                            <option value="maths">Maths</option>
+                            <option value="science">Science</option>
+                            <option value="history">History</option>
+                            <option value="geography">Geography</option>
+                            <option value="english">English</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" cols="30" rows="5" required></textarea>
+                    </div>
+                </div>
+            </form>
         </div>
     </main>
     <footer>

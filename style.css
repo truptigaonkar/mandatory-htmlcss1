@@ -124,10 +124,32 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 17px;
+    font-size: 20px;
 }
 /* mouse over link */
 li:hover{
     font-weight: bold;
+    color: darkblue;
 }
+/* Contact form*/
+form{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-70%, -50%);
+}
+label{
+    display: block;
+    font-weight: bold;
+    padding: 12px 12px 12px 0;
+}
+input, select, textarea{   
+    padding: 12px;
+    width: 150%;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+
 
