@@ -14,7 +14,7 @@ body {
     overflow: hidden;
 }
 
-/* Header */
+/* HEADER **/
 header {
     text-align: center;
     background: #35424a;
@@ -82,6 +82,21 @@ article{
     background-image: url('images/showcase.jpg');
 }
 
+/* ABOUT form **/
+.aboutme{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.img{
+    padding:20px;
+    border: #cccccc solid 1px;
+    background:#e6e6e6;
+}
+
+/* MOVIES form **/
 /* Table properties*/
 table{  
     margin-top: 3%;
@@ -106,32 +121,31 @@ table tbody tr:hover{
     background-color:  lightskyblue;
 }
 
-/* Fixed footer */
-footer {
-    padding: 10px;
-    color: #ffffff;
-    background-color: #e8491d;
-    text-align: center;
-    left: 0;
-    bottom: 0;
-    position: fixed;
-    width: 100%
-}
-
-/* Bringing links in the middle*/
+/* LINKS form **/
 .link{
+    text-decoration: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
+    text-decoration: none;
 }
+/* links without underline*/
+.link a{
+    text-decoration: none;
+}
+/* links become in purple color after visiting them */
+.link a:visited {
+    color: purple;
+  }
 /* mouse over link */
-li:hover{
+.link li:hover{
     font-weight: bold;
-    color: darkblue;
+    text-decoration: underline;
 }
-/* Contact form*/
+
+/* CONTACT form **/
 form{
     position: fixed;
     top: 50%;
@@ -151,17 +165,17 @@ input, select, textarea{
     box-sizing: border-box; 
 }
 
-.aboutme{
-    position: fixed;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+/* FOOTER **/
+footer {
+    padding: 5px;
+    color: #ffffff;
+    background-color: #e8491d;
     text-align: center;
+    left: 0;
+    bottom: 0;
+    position: fixed; /* fixed footer at bottom */
+    width: 100%
 }
-img{
-    margin-top: 50px;
-}
-
 
 
 
