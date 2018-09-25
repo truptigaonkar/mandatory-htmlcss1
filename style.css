@@ -108,6 +108,7 @@ table {
     width: 100%;
     padding: 8px;
     border-spacing: 100px 120px;
+    margin-bottom: 10px;
 }
 
 th,
@@ -161,6 +162,7 @@ form {
     margin-left: 25%;
     margin-right:25%;
     width: 30%;
+    margin-bottom: 10px;
 }
 
 label {
@@ -178,6 +180,19 @@ textarea {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.contactsubmit{
+    height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contactsubmit:hover{
+    font-weight: bold;
+}
 
 /* FOOTER **/
 footer {
@@ -190,7 +205,8 @@ footer {
     height: 100px;
     position: absolute;
     bottom: 0;
-    left: 0 */
+    left: 0 */ 
+    height: 100px;
 }
 /* Media Queries to make site responsive */
 @media(max-width: 800px){
