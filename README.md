@@ -1,7 +1,6 @@
-# Simple static website – HTML/CSS 
-### [Demo]( https://truptigaonkar.github.io/mandatory-htmlcss1/)
+## Simple static website – HTML/CSS - [Live Demo]( https://truptigaonkar.github.io/mandatory-htmlcss1/)
 
-## Instructions
+### Instructions
 * create a simple static website with five separate pages. 
   * Index page (index.html): The index page should include a welcome message.
   * About page (about.html): The About page includes an image and some text where you present yourself.
